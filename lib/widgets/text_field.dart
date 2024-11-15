@@ -5,8 +5,8 @@ class TField extends StatelessWidget {
   final String? htext;
   final Widget? suffix;
 
-  TField({
-    Key? key,
+  const TField({super.key, 
+    Key? Key,
     required this.name,
     this.htext,
     this.suffix,
@@ -32,7 +32,7 @@ class TField extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Center(
-            child: Container(
+            child: SizedBox(
                 width: 300,
                 child: TextFormField(
                   decoration: InputDecoration(
