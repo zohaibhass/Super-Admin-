@@ -46,7 +46,7 @@ class GpiManagement extends StatelessWidget {
               unselectedLabelColor: Colors.grey,
               indicatorColor: Color(0xFF52bf92),
               indicatorWeight: 3.0,
-              tabs: [
+              tabs: const [
                 Tab(child: TextBtn(btnname: "All")),
                 Tab(child: TextBtn(btnname: "Verified")),
                 Tab(child: TextBtn(btnname: "Unverified")),

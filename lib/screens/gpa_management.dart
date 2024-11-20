@@ -56,7 +56,7 @@ class GpaManagement extends StatelessWidget {
               labelColor: Color(0XFF52BF92
               ),
               
-              tabs: [ Tab(child: TextBtn(btnname: "ALL")),
+              tabs: const [ Tab(child: TextBtn(btnname: "ALL")),
                   Tab(child: TextBtn(btnname: "Applied")),
                   Tab(child: TextBtn(btnname: "Approved")),]
                  

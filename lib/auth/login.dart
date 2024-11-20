@@ -78,7 +78,7 @@ class Login extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              Container(
+              SizedBox(
                   width: 300,
                   child: LongButton(
                     btnName: "login",

@@ -21,7 +21,7 @@ class Reports extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Column(
-          children: [
+          children: const [
             MainHeading(title: "Reports"),
             ReportCard(
               name: "Hasina Zehra",

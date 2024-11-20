@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carbonccap/widgets/gpi_appbar.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:carbonccap/widgets/custom_carousel.dart';
 import 'package:carbonccap/tabs/gpi_bottom_navbar.dart';
 
 
@@ -537,11 +536,11 @@ class _DashboardScreenGpiState extends State<DashboardScreenGpi>
                           ),
                           child: Stack(
                             alignment: Alignment.center,
-                            children: [
+                            children: const [
                               SizedBox(
                                 height: 80,
                                 width: 80,
-                                child: const CircularProgressIndicator(
+                                child: CircularProgressIndicator(
                                   value: 0.5,
                                   strokeWidth: 8,
                                   backgroundColor: Color(0xFFDADADA),
@@ -549,7 +548,7 @@ class _DashboardScreenGpiState extends State<DashboardScreenGpi>
                                       AlwaysStoppedAnimation(Color(0xFF52bf92)),
                                 ),
                               ),
-                              const Positioned.fill(
+                              Positioned.fill(
                                 child: Center(
                                   child: Text(
                                     "50%",

@@ -5,6 +5,8 @@ import 'package:carbonccap/widgets/notification_icon.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class ReportsDetails extends StatelessWidget {
+  const ReportsDetails({super.key});
+
 
   @override
   Widget build(BuildContext context) {
